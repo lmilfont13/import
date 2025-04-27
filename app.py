@@ -27,7 +27,7 @@ with col2:
     admin_imp = st.number_input("Administração da Importação (BRL)", value=12683.15, min_value=0.0)
     margem_cambio = st.number_input("Margem extra/câmbio (%)", value=10.0, min_value=0.0, step=0.5)
 
-st.header("⚡ Impostos & Taxas (padrão NCM 8516.60.00, editáveis)")
+st.header("⚡ Impostos & Taxas (padrão NCM , editáveis)")
 ii = st.number_input("II - Imposto de Importação (%)", value=18.0, min_value=0.0, step=0.01)
 ipi = st.number_input("IPI (%)", value=7.8, min_value=0.0, step=0.01)
 pis = st.number_input("PIS (%)", value=2.1, min_value=0.0, step=0.01)
